@@ -1,0 +1,39 @@
+
+body {
+    background: #FFEBD7; background-size: 100%; overflow-x: hidden; padding: 100px 0px;
+}
+a {
+    text-decoration: none;
+    color: #BD772A;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .2s ease;
+    &:hover {
+        color:#3915ea;
+    }
+}
+h1 {
+    font-size: 42px;
+    color: #BD772A;
+}
+h2 {
+    font-size:32px;
+}
+p {
+    font-size: 18px;
+}
+img {
+    width:100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hero-img {
+    width:100%;
+    height:300px;
+}
+@import 'home';
+@import 'nav';
+@import 'project';

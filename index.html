@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Lora" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="nav fade-in delay-little">
+        <ul class="nav-list">
+            <li class="nav-list-item"><a class="home" href="./index.html"></a></li>
+            <li class="nav-list-item"><a class="nav-link" href="./docs/ResumeRenojVarghese.pdf">Resume</a></li>
+            <li class="nav-list-item"><a class="nav-link" href="mailto:renoj.varghese@uconn.edu">renoj.varghese@uconn.edu</a></li>
+        </ul>
+    </nav>
+    <div class="mega-container">
+        <div class="hero fade-in">
+
+            <div id="hero-img" class="fade-in"></div>
+
+            <h1 class="header title">Renoj Varghese's Portfolio</h1>
+
+        </div>
+        <div class="super-container">
+            <div class="container clearfix">
+                <a href="projects/webvisualizer.html">
+                    <div class="portfolio-item">
+                        <div class="center rotate-high">
+                            <div class="img-container">
+                                <img src="img/Screen2.png">
+                            </div>
+
+                        </div>
+                        <div class="center-text">
+                            <h3 class="header center-header">Web Music Visualizer</h3>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="projects/acroart.html">
+                    <div class="portfolio-item delay-high">
+                        <div class="center rotate-slight">
+                            <div class="img-container">
+                                <img src="img/Screen1.png">
+                            </div>
+
+                        </div>
+
+                        <div class="center-text">
+                            <h3 class="header center-header">Acro Art</h3>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="projects/graphicdesign.html">
+                    <div class="portfolio-item delay-little">
+                        <div class="center rotate-medium">
+                            <div class="img-container">
+                                <img src="img/Screen3.png">
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <h3 class="header center-header">Graphic Design</h3>
+
+                        </div>
+                    </div>
+                </a>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.3/vivus.js"></script>
+                <script>
+                    new Vivus('hero-img', {type: 'delayed', duration: 100, delay: 50, animTimingFunction: Vivus.EASE, file: 'img/hero.svg'});
+                </script>
+</body>
+
+</html>
